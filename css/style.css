@@ -1,0 +1,492 @@
+/* Work sans font google for font  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,700&family=Open+Sans:ital,wght@0,800;1,500&family=Poppins:wght@400;500&family=Roboto&family=Work+Sans:wght@600;700;800&display=swap');
+
+body {
+
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+
+    box-sizing: border-box;
+}
+
+/* header nav styles */
+nav {
+
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-container {
+    min-height: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.logo-container img {
+    width: 80px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.nav-title {
+    color: #0B0223;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.logo-title {
+    color: rgba(255, 66, 167, 1);
+}
+
+.nav-items-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items-container a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn-logo {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 17px 24px;
+}
+
+.btn-logo i {
+    margin-left: 16px;
+
+
+}
+
+/* banner section styles */
+.banner {
+    background-image: url("/images/Group\ 14.png");
+}
+
+.banner-container {
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    min-height: 50px;
+
+
+}
+
+.banner-content {
+    width: 50%;
+    margin: 120px 0;
+
+}
+
+.banner-img-container {
+    padding-bottom: 10px;
+}
+
+.banner-img-container img {
+    width: 100%;
+}
+
+.banner-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0px 0px;
+}
+
+.goat-title {
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px 0px;
+}
+
+.banner-details {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.banner-details i {
+    margin-right: 10px;
+
+}
+
+.icon-color {
+    color: rgba(255, 66, 167, 1);
+}
+
+.banner-btn {
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 20px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+
+}
+
+.sign-in {
+    background-color: rgba(255, 66, 167, 1);
+    margin-right: 20px;
+}
+
+/* we are gamer related styles  */
+.section-container-one {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.gamer-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    min-height: 50px;
+    display: flex;
+    gap: 40px;
+}
+
+.gamer-img-container {
+    width: 50%;
+}
+
+.gamer-img-container img {
+    width: 100%;
+    margin: 55px 0;
+}
+
+.gamer-content {
+    width: 50%;
+    margin: 40px 0;
+    text-align: right;
+}
+
+.gamer-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.gamer-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.another-gamer-title {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+
+.different-gmaer {
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-bottom: 0px;
+}
+
+/* Online Games Funny Videos section stylea */
+.section-container-two {
+    margin: 20px auto;
+    max-width: 1200px;
+    min-height: 50px;
+}
+
+.card {
+    display: flex;
+    margin-top: 48px;
+
+}
+
+.card-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.card-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card-details {
+    margin: 0 10px;
+}
+
+.card-details img {
+    width: 280px;
+    height: 350px;
+}
+
+
+.card-info-description {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+/* Play Instantly,No DownloadsNo Installs section styles */
+.section-container-three {
+    margin: 100px auto;
+    max-width: 1200px;
+}
+
+.instantly-img1-2 {
+    position: relative;
+}
+
+.instantly-img1-2 :nth-child(1) {
+    width: 500px;
+
+}
+
+.instantly-img1-2 :nth-child(2) {
+    position: absolute;
+    width: 260px;
+    height: 270px;
+    right: 75%;
+    top: 300px;
+}
+
+.play-instantly-container {
+    display: flex;
+}
+
+.playinstantly-text {
+    display: flex;
+    align-items: center;
+    margin: 0 170px;
+
+}
+
+.instantly-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.play-instantly-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.instantly-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+}
+
+/* careears section styles */
+.section-container-five {
+    background-image: url("/images/Group\ 14.png");
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+
+}
+
+.careers {
+    margin: 50px auto;
+    max-width: 1200px;
+    min-height: 50px;
+    display: flex;
+
+}
+
+.careers-img img {
+    width: 100%;
+}
+
+.careers-content {
+    width: 50%;
+
+}
+
+.careers-img {
+    width: 50%;
+}
+
+.careers-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.careers-description {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.position {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+}
+
+.position-2 {
+    text-align: right;
+}
+
+.btn-position {
+    border-radius: 48px;
+    color: rgba(255, 66, 167, 1);
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #FFF;
+    margin-bottom: 50px;
+    border: none;
+
+}
+
+/* Careers section styles */
+.section-container-six {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-top: 100px;
+}
+
+.games-container {
+    margin: 100px auto;
+    max-width: 1300px;
+    min-height: 50px;
+}
+
+.games-content {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 27px;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+.games {
+    display: flex;
+}
+
+.games:hover {
+    border: 2px solid blueviolet;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 10px;
+    box-shadow: 5px 5px 5px lightgray;
+
+}
+
+.games-title {
+    color: #0B0223;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 16px;
+}
+
+/* footer section styles */
+.footer-section {
+    text-align: center;
+    background: #0B0223;
+    padding: 100px 0;
+}
+
+.footer-img-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-img-title img {
+    width: 86.041px;
+    height: 40px;
+
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 20px;
+
+}
+
+.footer-anchore {
+
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer-section a {
+    color: #FFF;
+    text-decoration: none;
+    margin-top: 0px;
+    margin: 0 50px;
+}
+
+.online-icon {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+}
+
+.online-icon svg {
+    margin: 10px 30px;
+
+}
+
+.another a {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}

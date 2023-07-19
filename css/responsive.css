@@ -1,0 +1,21 @@
+/* mobile device responsive */
+@media screen and (max-width:576px) {
+    nav {
+        background-color: none;
+        box-shadow: none;
+    }
+
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-items-container {
+        flex-direction: column;
+    }
+
+    .nav-items-container a {
+        margin-top: 50px;
+    }
+
+
+}
